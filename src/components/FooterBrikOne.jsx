@@ -11,6 +11,7 @@ function FooterBrikOne(props){
     const liFive = props?.data?.data?.find(item => item?.content?.type === "link"  && item?.content?.for === "li five"); 
     const text = props?.data?.data?.find(item => item?.content?.type === "subtext"  && item?.content?.for === "subtext");
     return(
+        // <Grid>
         <div className="container-footer" style={{ backgroundColor: props?.data?.style?.backgroundColor ,color: props?.data?.style?.font?.color , fontWeight: props?.data?.style?.font?.weight , fontStyle: props?.data?.style?.font?.style, fontSize: props?.data?.style?.font?.size, fontFamily: props?.data?.style?.font?.family}}>
             <div className="list-container-parent">
                 <ul className="list-container">
@@ -24,6 +25,7 @@ function FooterBrikOne(props){
             
             {text && text?.display === "block" &&<Text c={text?.style?.font.color} fz={text?.style?.font?.size} style={{ fontFamily: text?.style?.font?.family ,backgroundColor: text?.style?.backgroundColor}} fs={text?.style?.font?.style} fw={text?.style?.font?.weight}  className="Brik-Container-text">{text?.content?.value}</Text>}
         </div>
+        // </Grid>
     );
 }
 export default FooterBrikOne;
