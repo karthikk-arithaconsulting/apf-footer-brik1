@@ -1,0 +1,151 @@
+{
+  "brikId": "",
+  "brikName": "",
+  "editorId": "",
+  "version": "*",
+  "editable": true,
+  "style": {
+    "font": {
+      "family": "",
+      "size": "",
+      "style": "",
+      "color": "",
+      "weight": ""
+    },
+    "backgroundColor": "",
+    "color": ""
+  },
+  "data": [
+    {
+      "content": {
+        "value": "Home",
+        "label": "hyperlink One",
+        "type": "link",
+        "for": "li one",
+        "link": "",
+        "target": "_self"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Features",
+        "label": "hyperlink Two",
+        "type": "link",
+        "for": "li two",
+        "link": "",
+        "target": "_self"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Pricing",
+        "label": "hyperlink Three",
+        "type": "link",
+        "for": "li three",
+        "link": "",
+        "target": "_self"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "FAQs",
+        "label": "hyperlink Four",
+        "type": "link",
+        "for": "li four",
+        "link": "",
+        "target": "_self"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "About",
+        "label": "hyperlink five",
+        "type": "link",
+        "for": "li five",
+        "link": "",
+        "target": "_self"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "© 2021 Company, Inc",
+        "label": "sub text",
+        "type": "subtext",
+        "for": "subtext",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "16",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    }
+  ]
+}

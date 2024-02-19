@@ -1,0 +1,7 @@
+{
+  "$schema": "https://brikcase.s3.amazonaws.com/apf/config.schema.json",
+  "root": true,
+  "brikId": "",
+  "version": "",
+  "brikName": ""
+}
