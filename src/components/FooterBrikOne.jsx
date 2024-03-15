@@ -12,7 +12,7 @@ function FooterBrikOne(props){
     const text = props?.data?.data?.find(item => item?.content?.type === "subtext"  && item?.content?.for === "subtext");
     return(
         // <Grid>
-        <div className="container-footer" style={{ backgroundColor: props?.data?.style?.backgroundColor ,color: props?.data?.style?.font?.color , fontWeight: props?.data?.style?.font?.weight , fontStyle: props?.data?.style?.font?.style, fontSize: props?.data?.style?.font?.size, fontFamily: props?.data?.style?.font?.family}}>
+        <div className="container-footer" style={{ backgroundColor: props?.data?.style?.backgroundColor ,color: props?.data?.style?.font?.color , fontWeight: props?.data?.style?.font?.weight , fontStyle: props?.data?.style?.font?.style, fontSize: props?.data?.style?.font?.size, fontFamily: props?.data?.style?.font?.family , height: props?.data?.style?.font?.height}}>
             <div className="list-container-parent">
                 <ul className="list-container">
                 {liOne && liOne?.display === "block" &&<li><Anchor href={liOne?.content?.link} target={liOne?.content?.target} underline="never" c={liOne?.style?.font?.color} fz={liOne?.style?.font?.size}  style={{ fontFamily: liOne?.style?.font?.family ,backgroundColor: liOne?.style?.backgroundColor}} fw={liOne?.style?.font?.weight} >{liOne?.content?.value}</Anchor></li>}
